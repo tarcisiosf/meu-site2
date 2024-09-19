@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #720303;
+        }
+        header {
+            background-color: #ffffff;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(153, 9, 9, 0.1);
+        }
+        h1, h2 {
+            color: #0a0a0a;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .skills {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            background-color: #71090973;
+            margin: 0.5em 0;
+            padding: 0.5em;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 2em 0;
+            background-color: #333;
+            color: white;
+        }
+        a {
+            color: #00aaff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo ao Meu Site</h1>
+</header>
+
+<section>
+    <h2>Sobre Mim</h2>
+    <img src="imagens/foto-tarcisio.jpg" alt="Foto de Tarcísio" width="200" style="border-radius: 50%; display: block; margin: 0 auto;">
+    <p>Olá, meu nome é Tarcísio, sou um estudante de Análise e Desenvolvimento de Sistemas e estou atualmente no 3° período. É uma página simples, mas por pouco tempo.</p>
+</section>
+
+
+<section>
+    <h2>Minhas Habilidades</h2>
+    <ul class="skills">
+        <li>HTML & CSS</li>
+        <li>Java</li>
+        <li>Python</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contato</h2>
+    <p>Você pode entrar em contato comigo pelo e-mail: <a href="mailto:email@exemplo.com">tarcisio.a18@outlook.com</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Tarcísio.</p>
+</footer>
+
+</body>
+</html>
